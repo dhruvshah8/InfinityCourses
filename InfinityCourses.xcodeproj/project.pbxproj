@@ -17,6 +17,11 @@
 		1E38387B24A546C000C2612F /* HomeList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E38387A24A546C000C2612F /* HomeList.swift */; };
 		1E38387D24A5476E00C2612F /* CertificateRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E38387C24A5476E00C2612F /* CertificateRow.swift */; };
 		1E38387F24A547A100C2612F /* UpdateList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E38387E24A547A100C2612F /* UpdateList.swift */; };
+		1E38388124A5481000C2612F /* UpdateDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E38388024A5481000C2612F /* UpdateDetail.swift */; };
+		1E38388324A5483000C2612F /* UpdateStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E38388224A5483000C2612F /* UpdateStore.swift */; };
+		1E38388524A5484E00C2612F /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E38388424A5484E00C2612F /* Settings.swift */; };
+		1E38388724A5486900C2612F /* BlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E38388624A5486900C2612F /* BlurView.swift */; };
+		ACE2B3EC44DD5ACC87E79250 /* Pods_InfinityCourses.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5E2475E0C03117E218572F1 /* Pods_InfinityCourses.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +37,13 @@
 		1E38387A24A546C000C2612F /* HomeList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeList.swift; sourceTree = "<group>"; };
 		1E38387C24A5476E00C2612F /* CertificateRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CertificateRow.swift; sourceTree = "<group>"; };
 		1E38387E24A547A100C2612F /* UpdateList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateList.swift; sourceTree = "<group>"; };
+		1E38388024A5481000C2612F /* UpdateDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateDetail.swift; sourceTree = "<group>"; };
+		1E38388224A5483000C2612F /* UpdateStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateStore.swift; sourceTree = "<group>"; };
+		1E38388424A5484E00C2612F /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		1E38388624A5486900C2612F /* BlurView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlurView.swift; sourceTree = "<group>"; };
+		90A3746B5854CB50576FF54A /* Pods-InfinityCourses.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InfinityCourses.release.xcconfig"; path = "Target Support Files/Pods-InfinityCourses/Pods-InfinityCourses.release.xcconfig"; sourceTree = "<group>"; };
+		B5E2475E0C03117E218572F1 /* Pods_InfinityCourses.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InfinityCourses.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4909CC6D5A6820FDB4F49B2 /* Pods-InfinityCourses.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InfinityCourses.debug.xcconfig"; path = "Target Support Files/Pods-InfinityCourses/Pods-InfinityCourses.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ACE2B3EC44DD5ACC87E79250 /* Pods_InfinityCourses.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,6 +63,8 @@
 			children = (
 				1E38386324A545CC00C2612F /* InfinityCourses */,
 				1E38386224A545CC00C2612F /* Products */,
+				8ACE52B09240E26B5F7BE609 /* Pods */,
+				3A0B3C86FC1DA8888CC315DD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -70,6 +85,10 @@
 				1E38386824A545CC00C2612F /* ContentView.swift */,
 				1E38387A24A546C000C2612F /* HomeList.swift */,
 				1E38387E24A547A100C2612F /* UpdateList.swift */,
+				1E38388024A5481000C2612F /* UpdateDetail.swift */,
+				1E38388224A5483000C2612F /* UpdateStore.swift */,
+				1E38388424A5484E00C2612F /* Settings.swift */,
+				1E38388624A5486900C2612F /* BlurView.swift */,
 				1E38387C24A5476E00C2612F /* CertificateRow.swift */,
 				1E38386A24A545CF00C2612F /* Assets.xcassets */,
 				1E38386F24A545CF00C2612F /* LaunchScreen.storyboard */,
@@ -87,6 +106,24 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		3A0B3C86FC1DA8888CC315DD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B5E2475E0C03117E218572F1 /* Pods_InfinityCourses.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8ACE52B09240E26B5F7BE609 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E4909CC6D5A6820FDB4F49B2 /* Pods-InfinityCourses.debug.xcconfig */,
+				90A3746B5854CB50576FF54A /* Pods-InfinityCourses.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -94,9 +131,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1E38387524A545CF00C2612F /* Build configuration list for PBXNativeTarget "InfinityCourses" */;
 			buildPhases = (
+				157F4560DE13997B17F57E67 /* [CP] Check Pods Manifest.lock */,
 				1E38385D24A545CC00C2612F /* Sources */,
 				1E38385E24A545CC00C2612F /* Frameworks */,
 				1E38385F24A545CC00C2612F /* Resources */,
+				2A24BA530A45B235EE3595F7 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -153,14 +192,60 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		157F4560DE13997B17F57E67 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-InfinityCourses-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2A24BA530A45B235EE3595F7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-InfinityCourses/Pods-InfinityCourses-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-InfinityCourses/Pods-InfinityCourses-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-InfinityCourses/Pods-InfinityCourses-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		1E38385D24A545CC00C2612F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				1E38386524A545CC00C2612F /* AppDelegate.swift in Sources */,
+				1E38388324A5483000C2612F /* UpdateStore.swift in Sources */,
 				1E38387F24A547A100C2612F /* UpdateList.swift in Sources */,
 				1E38387B24A546C000C2612F /* HomeList.swift in Sources */,
+				1E38388724A5486900C2612F /* BlurView.swift in Sources */,
+				1E38388524A5484E00C2612F /* Settings.swift in Sources */,
+				1E38388124A5481000C2612F /* UpdateDetail.swift in Sources */,
 				1E38386724A545CC00C2612F /* SceneDelegate.swift in Sources */,
 				1E38387924A5460E00C2612F /* Home.swift in Sources */,
 				1E38387D24A5476E00C2612F /* CertificateRow.swift in Sources */,
@@ -298,6 +383,7 @@
 		};
 		1E38387624A545CF00C2612F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4909CC6D5A6820FDB4F49B2 /* Pods-InfinityCourses.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -318,6 +404,7 @@
 		};
 		1E38387724A545CF00C2612F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 90A3746B5854CB50576FF54A /* Pods-InfinityCourses.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
