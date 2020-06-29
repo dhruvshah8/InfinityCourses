@@ -1,8 +1,9 @@
 # Infinity Courses App
 
 <img src="https://github.com/dhruvshah8/InfinityCourses/blob/master/gif.gif" height=600>
+<img src="https://raw.githubusercontent.com/dhruvshah8/InfinityCourses/master/screenshot.png" height=600>
 [![]("https://raw.githubusercontent.com/dhruvshah8/InfinityCourses/master/screenshot.png")]
-
+https://raw.githubusercontent.com/dhruvshah8/InfinityCourses/master/screenshot.png
 
 ### Built using Apple's latest SwiftUI and Combine framework.
 
