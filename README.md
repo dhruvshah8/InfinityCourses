@@ -1,5 +1,8 @@
 # Infinity Courses App
 
+
+
+
 ### Built using Apple's latest SwiftUI and Combine framework.
 
 - Beautifully written code that is well intended for easy understanding
